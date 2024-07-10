@@ -1,0 +1,9 @@
+{
+	"name": "lnamuchedatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "28626590-a17e-413a-8d82-8030acae349a",
+		"tenantId": "44dcb18c-6000-45ca-8a3b-92fed1135c52"
+	}
+}
