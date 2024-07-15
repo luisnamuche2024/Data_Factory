@@ -110,7 +110,13 @@
 							"outputs": [
 								{
 									"referenceName": "OutputFolderFilesCopy_ADLS",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"ArchivoOutput": {
+											"value": "@item().name",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
